@@ -55,3 +55,6 @@ jobs:
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+NODE_ENV=sandbox
+API_URL=https://sandbox.api.integrity.com
+DATABASE_URL=mongodb+srv://sandbox-user:sandbox-password@cluster0.mongodb.net/integrity-sandbox
