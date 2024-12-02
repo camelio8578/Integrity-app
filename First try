@@ -1,3 +1,0 @@
-echo "OPENAI_API_KEY=sk-your-key" > .env.local
-npm install
-npm run dev
